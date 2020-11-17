@@ -1,3 +1,120 @@
-# Group09
+<p style="text-align: center;">&nbsp;</p>
+<p style="text-align: center;">&nbsp;</p>
+<p align="center"><strong><img src="https://media.dhakatribune.com/uploads/2016/11/nsulogo.jpg" alt="" width="307" height="172" /></strong></p>
+<p align="center"><strong>North South University</strong></p>
+<p align="center">Department of Electrical &amp; Computer Engineering</p>
+<p align="center"><strong>Project Proposal</strong></p>
+<p align="center"><strong>Group No</strong>: 09</p>
+<p align="center"><strong>Fall 2020</strong></p>
+<p align="center"><strong>Project Name</strong>: E-Commerce Website (Easy-Shopify)</p>
+<p align="center"><strong>Course No</strong>: CSE 299 <strong>Sec</strong><strong>:</strong> 02</p>
+<p align="center"><strong>Faculty</strong>: Shaikh Shawon Arefin Shimon (Sas3)</p>
+<p align="center"><strong><u>Prepared by</u></strong><u>:</u></p>
+<p align="center"><strong>Name</strong><strong>:</strong> Mohammmad Arshadul Alam Rakib</p>
+<p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1731487042</p>
+<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:arshadul.rakib@northsouth.edu">arshadul.rakib@northsouth.edu</a></p>
+<p align="center"><strong>Git Repository</strong><strong>: </strong><a
+href="https://github.com/NSU-FA20-CSE299-2/Group09">https://github.com/NSU-FA20-CSE299-2/Group09</a></p>
+<p align="center"><strong>Date Prepared</strong><strong>: </strong>13/11/2020</p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>&nbsp;</strong></p>
+<p><strong>INTRODUCTION</strong></p>
+<p align="justify">This era is called the era of science and technology. In the last couple of years, this earth changes incredibly fast. Our country is also improving itself rapidly. E- commerce business is flourishing in Bangladesh recently. A new horizon has been opened up for business, to be specific electronic commerce (E-commerce) by the Internet. In Bangladesh, a population of 165 million with 33% mobile internet user, the E-commerce market is, by all means considerably potential in upcoming days. A bulk portion of the business at present is working under the e-commerce criteria over digital networks.</p>
 
-## Easy-Shopify
+<p align="justify">The E-commerce web application Easy-Shopify is intended to provide complete solutions for the vendor as well as customers through a single gateway using the Internet.</p>   
+
+<p align="justify">Easy-Shopify is a web-based e-commerce application where buyer and seller can connect with each other, and buy or sell their desired products. It will be a market place which will operate in markets of Bangladesh. Easy-Shopify will create an Internet-based marketplace where seller can lay bare their products and buyers can choose and buy their required or things which they need. It will be an excellent platform for both buyer and sellers. Easy-Shopify will introduce with a business model of selling products to customers from third-party retailers to sell their products through the site. We will add a 2-day guaranteed delivery service all around Bangladesh, will also maintain the hygiene and will make sure the product will be received totally as it is. Entrepreneurs also can use this platform. Sellers or those warehouse who use my platform for lay bare their products, have to give some percentage for using this platform. We will charge sellers or warehouses a minimum percentage on their profit.</p>
+
+<p><strong>Why Use This Website?</strong></p>
+<p align="justify">In the Easy-Shopify website, we will try to solve some problems of existing e-commerce website of our country like Evaly, Daraz etc.</p>
+
+<p><strong>Problem 1: Fake Products</strong></p>
+<p align="justify">A lot of the e-commerce websites that are present today contain many fake products and are full of scammers. Hence, buyers have a hard time distinguishing between fake products and original products.</p>
+<p><strong>Solution</strong></p>
+<p align="justify">In our website, we will make a rule for the seller to avoid this. When a seller uploads a product s/he will have to upload original photos and an unboxing video of the
+product.</p>
+<p><strong>Problem 2: Delivery Time</strong></p>
+<p>Delivery time is too long for most of the e-commerce sites in our country.</p>
+<p><strong>Solution</strong></p>
+<p align="justify">Most of the e-commerce sites use third party delivery system. We will control the delivery system. After getting the order, we will collect products from the seller and deliver it to the customer. We can build warehouses in the city area and can store most of the common items to reduce delivery time.</p>
+<p><strong>Problem 3: Return and Refund</strong></p>
+<p align="justify">A survey showed that 63% of American consumers check the return policy before making a purchase, the same in our country. Here return, and refund policy is not clear. Even, most of the e-commerce sites do not give refund properly.</p>
+<p><strong>Problem 4: Customer Loyalty</strong></p>
+<p align="justify">It can cost up to 5 times more to acquire a new customer than retaining an existing one. The success rate of selling to a current customer is 60-70% compared to only 5-20% Success rate of selling to a new customer, but most of the sites cannot hold up their exciting customer.</p>
+<p><strong>FEATURES</strong></p>
+<ol>
+  <li>Login and Registration.</li>
+  <li>Shopping Cart and Checkout Process.</li>
+  <li>Wishlist.</li>
+  <li>Search bar.</li>
+  <li>Payment system.</li>
+  <li>Category wise products showcase.</li>
+  <li>Shipping form.</li>
+  <li>A Review section.</li>
+  <li>Dashboard and customer management.</li>
+</ol>
+<p><strong>FEATURE DETAILS</strong></p>
+<p>1. Customer</p>
+<ul>
+  <li>Customer can view/search products without login.</li>
+  <li>Customer can also add /remove a product to cart without login (if customer try to add the same product in the cart. It will add only one)</li>
+  <li>When a customer tries to purchase a product, then he/she must log in to the system.</li>
+  <li>After creating an account and login to the system, he/she can place an order.</li>
+  <li>There is a payment page also.</li>
+  <li>If the customer clicks on the pay button, then after their payment is successful, and their order will be placed.</li>
+  <li>Customer can check their order details by clicking on orders button.</li>
+  <li>Customer can see the order status (Pending, Confirmed, Delivered) for each order.</li>
+  <li>Customer can download their order invoice for each order.</li>
+  <li>Customer can send feedback to admin (without login).</li>
+</ul>
+<p>2. Admin</p>
+<ul>
+  <li>First admin will log in giving the username, email and password.</li>
+  <li>After login, there is a dashboard where admin can see how many customers are registered, how many products are there for sale, how many orders placed.</li>
+  <li>Admin can add/delete /view/edit the products.</li>
+  <li>Admin can view/edit/delete customer details.</li>
+  <li>Admin can view/delete orders.</li>
+  <li>Admin can change the status of an order (order is pending, confirmed, out for delivery, delivered)</li>
+  <li>Admin can view the feedbacks sent by customers.</li>
+</ul>
+<p>3. Other Features</p>
+<ul>
+  <li>Customer places order and admin deleted that user (fraud detection), then their orders will automatically be deleted.</li>
+  <li>If the user clicks on purchase button without having products in their cart, then the website will ask to add product in the cart first.</li>
+</ul>
+<p></p>
+<p><strong>TECHNOLOGY</strong></p>
+<p>We decided to go with latest technologies for developing this application in order to give users a better experience.</p>
+<p></p>
+<p><strong>FRONTEND</strong></p>
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Bootstrap</li>
+  <li>Javascript</li>
+</ul>
+<p><strong>BACKEND</strong></p>
+<ul>
+  <li>MySQL</li>
+  <li>Python</li>
+</ul>
+<p><strong>FRAMEWORK</strong></p>
+<ul>
+  <li>Django</li>
+</ul>
+
+<p><strong>MONETIZATION</strong></p>
+<ul>
+  <li>We will ask the seller to pay a commission of 5% for product sold more than 100 BDT.</li>
+  <li>Companies can place add in the website, which will cost 100 BDT per day.</li>
+  <li>Google Adsense</li>
+</ul>
+
+<p><strong>QUALITY</strong></p>
+<ul>
+  <li>The UI of the application will be user friendly so that anyone can use it.</li>
+  <li>Each and every product will be arranged in their category wise.</li>
+</ul>
+
+<p><strong>SOCIAL IMPACT</strong></p>
+<p align="justify">As we are giving opportunities to the entrepreneurs to use the platform, they are attracted to advanced technologies, and will help to reduce the unemployment problems from our society, which will lead a better economy for the country. People can use online payment easily, which is hassle-free. People can order what they need through our website while staying at home by just a few clicks. Due to Covid'19 pandemic, people cannot go outside often as it is risky so they can use the platform to buy what they need. As we will maintain hygiene while delivering a product, it will be risk-free.</p>
