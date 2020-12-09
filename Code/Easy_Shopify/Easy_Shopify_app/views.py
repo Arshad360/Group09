@@ -6,3 +6,7 @@ from django.http import HttpResponseRedirect,HttpResponse
 def home_view(request):
 
     return render(request,'Easy_Shopify_app/index.html')
+
+def adminclick_view(request):
+    
+    return HttpResponseRedirect('adminlogin')

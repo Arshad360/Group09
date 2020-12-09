@@ -17,9 +17,13 @@ from django.contrib import admin
 from django.urls import include
 from django.urls import path
 from Easy_Shopify_app import views
+from django.contrib.auth.views import LoginView
 
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',views.home_view,name=''),
+    path('adminclick', views.adminclick_view),
+    path('adminlogin', LoginView.as_view(template_name='Easy_Shopify_app/adminlogin.html')),
+
 ]
