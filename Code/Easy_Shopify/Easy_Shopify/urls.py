@@ -25,5 +25,7 @@ urlpatterns = [
     path('',views.home_view,name=''),
     path('adminclick', views.adminclick_view),
     path('adminlogin', LoginView.as_view(template_name='Easy_Shopify_app/adminlogin.html')),
+    path('customerclick', views.customerclick_view),
+    path('customerlogin', LoginView.as_view(template_name='Easy_Shopify_app/customerlogin.html')),
 
 ]
