@@ -14,3 +14,7 @@ def adminclick_view(request):
 def customerclick_view(request):
     
     return render(request, 'Easy_Shopify_app/customerlogin.html')
+
+def customersignupclick_view(request):                                            
+                   
+    return render(request, 'Easy_Shopify_app/customersignup.html')
