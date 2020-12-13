@@ -3,9 +3,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Customer Signup</title>
+    <title></title>
     <style media="screen">
-
       body {
     margin: 0;
     padding: 0;
@@ -98,7 +97,7 @@ ul.social-network li {
 }
 
 .social-network a.icoGoogle:hover {
-    background-color: #c4b1ad
+    background-color: #BD3518
 }
 
 .social-network a.icoFacebook:hover i,
@@ -143,7 +142,28 @@ a.socialIcon:hover,
     </style>
   </head>
   <body>
-    {% include "Easy_Shopify_app/navbar.html" %}   
+    {% include "Easy_Shopify_app/navbar.html" %}
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <form class="box" method="post" enctype="multipart/form-data">
+                  {% csrf_token %}
+                    <h1>CUSTOMER SIGNUP</h1>
+                    <p class="text-muted"> Please enter your details to create an account </p>
+                    <input type="text" name="first_name" maxlength="100" placeholder="First Name" class="form-control" id="id_first_name">  
+                    <input type="text" name="first_name" maxlength="100" placeholder="last Name" class="form-control" id="id_last_name">
+                    <input type="text" name="username" maxlength="100" placeholder="Username" class="form-control" required="" id="id_username">
+                    <input type="password" name="password" maxlength="20" placeholder="Password" class="form-control" required="" id="id_password">
+                    <input type="text" name="address" maxlength="100" placeholder="Address" class="form-control" required="" id="id_address">
+                    <input type="text" name="mobile" maxlength="11" placeholder="Mobile" class="form-control" required="" id="id_mobile">
+                    
+                    <input type="submit" name="" value="Create">
+
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
 <br><br><br><br><br><br><br><br><br>
 <br><br><br><br><br><br><br><br><br>
