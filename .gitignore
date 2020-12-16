@@ -1,3 +1,7 @@
+Code\Easy_Shopify\Easy_Shopify_app\__pycache__
+Code\Easy_Shopify\Easy_Shopify_app\migrations\__pycache__
+Code\Easy_Shopify\Easy_Shopify\__pycache__
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
