@@ -14,6 +14,9 @@ def adminclick_view(request):
         return HttpResponseRedirect('afterlogin')
     return HttpResponseRedirect('adminlogin')
 
+def afterlogin_view(request):
+    return redirect('admin-dashboard')
+
 def customerclick_view(request):
     
     return render(request, 'Easy_Shopify_app/customerlogin.html')
