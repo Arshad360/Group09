@@ -3,7 +3,7 @@ from . import forms, models
 from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.models import Group, User, auth
 from django.conf import settings
-
+from django.contrib.auth.decorators import login_required, user_passes_test
 
 def home_view(request):
 
