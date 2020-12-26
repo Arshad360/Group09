@@ -13,18 +13,11 @@
  
     <style>
           body {
-      background-color: #228B22
+      background-color: #000000
   }
 
   #navbar {
-      background-color: #000;
-      color: black;
-       body {
-      background-color: #ebe0e0
-  }
-
-  #navbar {
-      background-color: #000;
+      background-color: rgb(18, 133, 127);
       color: black;
   }
 
@@ -54,7 +47,112 @@
       height: 43px;
       cursor: pointer
   }
+
+  body {
+    background-color: #ebe0e0
+}
+
+#navbar {
+    background-color: #000;
+    color: black;
+}
+
+.row1 {
+    padding-top: 10px;
+    padding-right: 50px
+}
+
+.row2 {
+    padding-bottom: 20px
+}
+
+.navbar-input {
+    padding: 11px 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0 none;
+    outline: 0 none;
+    font-size: 15px
+}
+
+.navbar-button {
+    background-color: #ffe11b;
+    border: 1px solid #ffe11b;
+    border-radius: 0 2px 2px 0;
+    color: #565656;
+    padding: 10px 0;
+    height: 43px;
+    cursor: pointer
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.dropdown:hover {
+    background-color: #fff;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    background-color: #fff;
+    color: #565656;
+    left: 0px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 4px 8px -3px #555454;
+    margin: 0;
+    padding: 0px;
+}
+
+
+.links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.largenav {
+  display: none
+}
+
+.smallnav {
+  display: block
+}
+
+.smallsearch {
+  margin-left: 15px;
+  margin-top: 15px
+}
+
+.menu {
+  cursor: pointer
+}
+
+@media screen and (min-width: 768px) {
+  .largenav {
+      display: block
   }
+
+  .smallnav {
+      display: none
+  }
+
+  .smallsearch {
+      margin: 0px
+  }
+}
 
     </style>
     </head>
