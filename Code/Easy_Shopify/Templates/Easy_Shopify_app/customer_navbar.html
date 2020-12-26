@@ -48,6 +48,18 @@
           cursor: pointer
       }
       
+      .upper-links {
+        display: inline-block;
+        padding: 0 11px;
+        line-height: 23px;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0;
+        color: inherit;
+        border: none;
+        outline: none;
+        font-size: 12px;
+      }
+
       .dropdown {
           position: relative;
           display: inline-block;
@@ -56,6 +68,10 @@
       
       .dropdown:hover {
           background-color: #fff;
+      }
+
+      .dropdown:hover .links {
+        color:rgb(0, 0, 0)
       }
       
       .dropdown:hover .dropdown-menu {
