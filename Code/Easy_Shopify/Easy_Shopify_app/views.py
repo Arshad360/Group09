@@ -47,6 +47,9 @@ def admin_dashboard_view(request):
     
     return render(request,'Easy_Shopify_app/admin_dashboard.html')
 
+def is_customer(user):
+    return user.groups.filter(name='CUSTOMER').exists()
+
 @login_required(login_url='customerlogin')
 
 def customer_home_view(request):
