@@ -1,6 +1,127 @@
 <html>
 {% load static %}
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<style>
+body {
+    background-color: #ebe0e0
+}
+
+#navbar {
+    background-color: rgb(7, 22, 68);
+    color: black;
+}
+
+.row1 {
+    padding-top: 10px;
+    padding-right: 50px
+}
+
+.row2 {
+    padding-bottom: 20px
+}
+
+.navbar-input {
+    padding: 11px 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0 none;
+    outline: 0 none;
+    font-size: 15px
+}
+
+.navbar-button {
+    background-color: #ffe11b;
+    border: 1px solid #ffe11b;
+    border-radius: 0 2px 2px 0;
+    color: #565656;
+    padding: 10px 0;
+    height: 43px;
+    cursor: pointer
+}
+
+.upper-links {
+    display: inline-block;
+    padding: 0 11px;
+    line-height: 23px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0;
+    color: inherit;
+    border: none;
+    outline: none;
+    font-size: 12px
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 0px
+}
+
+.dropdown:hover {
+    background-color: #fff
+}
+
+.dropdown:hover .links {
+    color: #000
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    background-color: #fff;
+    color: #333;
+    left: 0px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: 0 4px 8px -3px #555454;
+    margin: 0;
+    padding: 0px
+}
+
+.largenav {
+    display: none
+}
+
+.smallnav {
+    display: block
+}
+
+.smallsearch {
+    margin-left: 15px;
+    margin-top: 15px
+}
+
+.menu {
+    cursor: pointer
+}
+
+
+@media screen and (min-width: 768px) {
+    .largenav {
+        display: block
+    }
+
+    .smallnav {
+        display: none
+    }
+
+    .smallsearch {
+        margin: 0px
+    }
+}
+</style>
 </head>
 <body>
     <div id="navbar">
