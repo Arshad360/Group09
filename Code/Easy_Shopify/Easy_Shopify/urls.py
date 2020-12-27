@@ -29,5 +29,6 @@ urlpatterns = [
     path('customersignup', views.customer_signup_view),  
     path('customerlogin', LoginView.as_view(template_name='Easy_Shopify_app/customerlogin.html'),name='customerlogin'), 
     path('afterlogin', views.afterlogin_view,name='afterlogin'),
-    path('admin-dashboard', views.admin_dashboard_view,name='admin-dashboard'), 
+    path('admin-dashboard', views.admin_dashboard_view,name='admin-dashboard'),
+    path('customer-home', views.customer_home_view,name='customer-home'), 
 ]
