@@ -15,7 +15,10 @@ def adminclick_view(request):
     return HttpResponseRedirect('adminlogin')
 
 def afterlogin_view(request):
-    return redirect('admin-dashboard')
+    if is_customer(request.user):
+        return redirect('customer-home')
+    else:
+        return redirect('admin-dashboard')
 
 def customerclick_view(request):
     
