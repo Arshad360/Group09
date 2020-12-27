@@ -46,3 +46,9 @@ def customer_signup_view(request):
 def admin_dashboard_view(request):
     
     return render(request,'Easy_Shopify_app/admin_dashboard.html')
+
+@login_required(login_url='customerlogin')
+
+def customer_home_view(request):
+    
+    return render(request,'Easy_Shopify_app/customer_home.html')
