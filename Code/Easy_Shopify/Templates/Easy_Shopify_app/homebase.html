@@ -8,10 +8,13 @@
 </head>
 
 <body>
+  {% if request.user.is_authenticated %}
+    {% include "Easy_Shopify_app/customer_navbar.html" %}
+  {% else %}
+    {% include "Easy_Shopify_app/navbar.html" %}
+  {% endif %}
   
-  {% include "Easy_Shopify_app/navbar.html" %}
-
-  {%block content%}
+    {%block content%}
 
   {%endblock content%}
 
