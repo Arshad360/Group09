@@ -55,6 +55,7 @@ def is_customer(user):
 
 @login_required(login_url='customerlogin')
 
+@user_passes_test(is_customer)
 def customer_home_view(request):
     
     return render(request,'Easy_Shopify_app/customer_home.html')
