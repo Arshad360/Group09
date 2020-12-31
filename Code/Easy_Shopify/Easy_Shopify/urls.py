@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import include
 from django.urls import path
 from Easy_Shopify_app import views
-from django.contrib.auth.views import LoginView
+from django.contrib.auth.views import LoginView, LogoutView
 
 
 urlpatterns = [
@@ -31,4 +31,5 @@ urlpatterns = [
     path('afterlogin', views.afterlogin_view,name='afterlogin'),
     path('admin-dashboard', views.admin_dashboard_view,name='admin-dashboard'),
     path('customer-home', views.customer_home_view,name='customer-home'), 
+    path('logout', LogoutView.as_view(template_name='Easy_Shopify_app/logout.html'), name='logout'),
 ]
