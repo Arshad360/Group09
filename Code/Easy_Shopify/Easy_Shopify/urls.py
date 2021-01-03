@@ -32,4 +32,5 @@ urlpatterns = [
     path('admin-dashboard', views.admin_dashboard_view,name='admin-dashboard'),
     path('customer-home', views.customer_home_view,name='customer-home'), 
     path('logout', LogoutView.as_view(template_name='Easy_Shopify_app/logout.html'), name='logout'),
+    path('cart', views.cart_view, name='cart'),
 ]
