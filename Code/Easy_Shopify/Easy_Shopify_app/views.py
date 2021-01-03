@@ -14,6 +14,8 @@ def adminclick_view(request):
         return HttpResponseRedirect('afterlogin')
     return HttpResponseRedirect('adminlogin')
 
+def cart_view(request):
+    return render(request,'Easy_Shopify_app/cart.html')
 def afterlogin_view(request):
     if is_customer(request.user):
         return redirect('customer-home')
