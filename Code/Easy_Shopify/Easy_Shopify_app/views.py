@@ -61,3 +61,6 @@ def is_customer(user):
 def customer_home_view(request):
     
     return render(request,'Easy_Shopify_app/customer_home.html')
+
+def view_customer_view(request):
+    return render(request, 'Easy_Shopify_app/view_customer.html')
