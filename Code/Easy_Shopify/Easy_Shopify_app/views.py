@@ -6,8 +6,18 @@ from django.conf import settings
 from django.contrib.auth.decorators import login_required, user_passes_test
 
 def home_view(request):
-
-    return render(request,'Easy_Shopify_app/index.html')
+  
+    products=models.Product.objects.all()
+    if 'product_ids' in request.COOKIES:
+        product_ids=request.COOKIES['product_ids']
+        counter=product_ids.split('|')
+        product_count_in_cart=len(set(counter))
+    else: 
+        product_count_in_cart=0
+        
+    if request.user.is_authenticated:
+        return HttpResponseRedirect('afterlogin')	    
+    return render(request,'Easy_Shopify_app/index.html',{'products':products, 'product_count_in_cart':product_count_in_cart})
 
 def adminclick_view(request):
     if request.user.is_authenticated:
