@@ -67,7 +67,8 @@ def view_customer_view(request):
 
 @login_required(login_url='adminlogin')
 def admin_products_view(request):
-    return render(request,'Easy_Shopify_app/admin_products.html')
+    products=models.Product.objects.all()
+    return render(request,'Easy_Shopify_app/admin_products.html',{'products':products})
 
 @login_required(login_url='adminlogin')
 def admin_add_product_view(request):
