@@ -64,3 +64,7 @@ def customer_home_view(request):
 
 def view_customer_view(request):
     return render(request, 'Easy_Shopify_app/view_customer.html')
+
+@login_required(login_url='adminlogin')
+def admin_products_view(request):
+    return render(request,'Easy_Shopify_app/admin_products.html')
