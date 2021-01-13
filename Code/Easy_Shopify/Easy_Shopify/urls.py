@@ -35,4 +35,5 @@ urlpatterns = [
     path('cart', views.cart_view, name='cart'),
     path('view-customer', views.view_customer_view, name='view-customer'),
     path('admin-products', views.admin_products_view,name='admin-products'),
+    path('admin-add-product', views.admin_add_product_view,name='admin-add-product'),
 ]
