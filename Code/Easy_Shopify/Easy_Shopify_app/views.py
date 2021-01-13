@@ -68,3 +68,13 @@ def view_customer_view(request):
 @login_required(login_url='adminlogin')
 def admin_products_view(request):
     return render(request,'Easy_Shopify_app/admin_products.html')
+
+@login_required(login_url='adminlogin')
+def admin_add_product_view(request):
+    productForm=forms.ProductForm()
+    if request.method=='POST':
+        productForm=forms.ProductForm(request.POST, request.FILES)
+        if productForm.is_valid():
+            productForm.save()
+        return HttpResponseRedirect('admin-products')
+    return render(request,'Easy_Shopify_app/admin_add_products.html',{'productForm':productForm})
