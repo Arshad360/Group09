@@ -73,4 +73,12 @@ body {
   </div>
   </div>
 </div>
+{% if forloop.counter|divisibleby:"3" %}
+<div class="row">
+      <br><br><br><br><br>
+{% endif %}
+{% endfor %}
+</div>
+<br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
 {% endblock content %}
