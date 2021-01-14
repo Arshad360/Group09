@@ -142,4 +142,11 @@ def remove_from_cart_view(request,pk):
         product_count_in_cart=len(set(counter))
     else:
         product_count_in_cart=0
-    return render(request,'Easy_Shopify_app/cart.html',{'product_count':product_count_in_cart})
+    total=0
+    if 'product_ids' in request.COOKIES:
+        product_ids = request.COOKIES['product_ids']
+        product_id_in_cart=product_ids.split('|')
+        product_id_in_cart=list(set(product_id_in_cart))
+        product_id_in_cart.remove(str(pk))
+        products=models.Product.objects.all().filter(id__in = product_id_in_cart)
+    return render(request,'Easy_Shopify_app/cart.html',{'product_count':product_count_in_cart,'total':total,'products':products})
