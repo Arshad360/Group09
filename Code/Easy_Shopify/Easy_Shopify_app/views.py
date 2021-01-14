@@ -136,5 +136,10 @@ def add_to_cart_view(request,pk):
     return response
 
 def remove_from_cart_view(request,pk):
-    
-    return render(request,'Easy_Shopify_app/cart.html')
+    if 'product_ids' in request.COOKIES:
+        product_ids = request.COOKIES['product_ids']
+        counter=product_ids.split('|')
+        product_count_in_cart=len(set(counter))
+    else:
+        product_count_in_cart=0
+    return render(request,'Easy_Shopify_app/cart.html',{'product_count':product_count_in_cart})
