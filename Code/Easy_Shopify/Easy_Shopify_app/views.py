@@ -106,3 +106,7 @@ def admin_add_product_view(request):
             productForm.save()
         return HttpResponseRedirect('admin-products')
     return render(request,'Easy_Shopify_app/admin_add_products.html',{'productForm':productForm})
+
+def add_to_cart_view(request):
+
+    return render(request, 'Easy_Shopify_app/index.html')
