@@ -149,4 +149,7 @@ def remove_from_cart_view(request,pk):
         product_id_in_cart=list(set(product_id_in_cart))
         product_id_in_cart.remove(str(pk))
         products=models.Product.objects.all().filter(id__in = product_id_in_cart)
+        
+        for p in products:
+            total=total+p.price
     return render(request,'Easy_Shopify_app/cart.html',{'product_count':product_count_in_cart,'total':total,'products':products})
