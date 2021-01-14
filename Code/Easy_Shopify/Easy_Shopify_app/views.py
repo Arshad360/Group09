@@ -25,7 +25,15 @@ def adminclick_view(request):
     return HttpResponseRedirect('adminlogin')
 
 def cart_view(request):
-    return render(request,'Easy_Shopify_app/cart.html')
+    
+    if 'product_ids' in request.COOKIES:
+        product_ids = request.COOKIES['product_ids']
+        counter=product_ids.split('|')
+        product_count_in_cart=len(set(counter))
+    else:
+        product_count_in_cart=0
+    return render(request,'Easy_Shopify_app/cart.html',{'product_count_in_cart':product_count_in_cart})
+
 def afterlogin_view(request):
     if is_customer(request.user):
         return redirect('customer-home')
