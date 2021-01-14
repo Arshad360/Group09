@@ -164,3 +164,9 @@ def remove_from_cart_view(request,pk):
             response.delete_cookie('product_ids')
         response.set_cookie('product_ids',value)
         return response
+    
+@login_required(login_url='adminlogin')
+def delete_product_view(request,pk):
+    product=models.Product.objects.get(id=pk)
+    product.delete()
+    return redirect('admin-products')
