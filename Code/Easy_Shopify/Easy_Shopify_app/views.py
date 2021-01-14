@@ -32,7 +32,16 @@ def cart_view(request):
         product_count_in_cart=len(set(counter))
     else:
         product_count_in_cart=0
-    return render(request,'Easy_Shopify_app/cart.html',{'product_count_in_cart':product_count_in_cart})
+        
+    products=None
+    total=0
+    if 'product_ids' in request.COOKIES:
+        product_ids = request.COOKIES['product_ids']
+        if product_ids != "":
+            product_id_in_cart=product_ids.split('|')
+            products=models.Product.objects.all().filter(id__in = product_id_in_cart)
+
+    return render(request,'Easy_Shopify_app/cart.html',{'product_count_in_cart':product_count_in_cart,'products':products})
 
 def afterlogin_view(request):
     if is_customer(request.user):
