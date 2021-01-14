@@ -170,3 +170,14 @@ def delete_product_view(request,pk):
     product=models.Product.objects.get(id=pk)
     product.delete()
     return redirect('admin-products')
+
+@login_required(login_url='adminlogin')
+def update_product_view(request,pk):
+    product=models.Product.objects.get(id=pk)
+    productForm=forms.ProductForm(instance=product)
+    if request.method=='POST':
+        productForm=forms.ProductForm(request.POST,request.FILES,instance=product)
+        if productForm.is_valid():
+            productForm.save()
+            return redirect('admin-products')
+    return render(request,'Easy_Shopify_app/admin_update_product.html',{'productForm':productForm})
