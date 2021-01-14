@@ -134,3 +134,7 @@ def add_to_cart_view(request,pk):
         product=models.Product.objects.get(id=pk)
         messages.info(request, product.name + ' Product successfully added to cart')
     return response
+
+def remove_from_cart_view(request,pk):
+    
+    return render(request,'Easy_Shopify_app/cart.html')
