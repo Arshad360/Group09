@@ -306,6 +306,9 @@ body {
 }
   </style>
 
+  {%if products%}
+<h3 style="text-align:center; color:yellow;">{{word}}</h3>
+<br>
 <div class="row">
 
   {% for p in products %}
@@ -315,11 +318,10 @@ body {
       <div class="row">
         <div class="el-wrapper">
           <div class="box-up">
-            <img class="img" src="{% static 'Easy_Shopify_app/images/Watch.png' %}" alt="product pic"> 
+            <img class="img" src="{% static p.product_image.url %}" alt="product pic" height="300px" width="300px"> 
             <div class="img-info">
               <div class="info-inner">
-                <span class="p-name">{{p.name}}</span>
-                <span class="p-company">Rolex</span>
+                <span style ="background-color: #252525; color:#FFE11B;" class = "p-company">{{p.name}}</span>
               </div>
               <div class="a-size">{{p.description}}</div>
             </div>
@@ -341,7 +343,6 @@ body {
       </div>
     </div>
   </div>
-  </div>
 </div>
 {% if forloop.counter|divisibleby:"3" %}
 <div class="row">
@@ -349,6 +350,9 @@ body {
 {% endif %}
 {% endfor %}
 </div>
+{%else%}
+<h3 style="text-align:center; color:yellow;">No products available</h3>
+{%endif%}
 <br><br><br>
 <br><br><br><br><br><br><br><br><br><br><br><br>
 {% endblock content %}
