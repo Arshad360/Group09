@@ -109,6 +109,14 @@ def admin_add_product_view(request):
         return HttpResponseRedirect('admin-products')
     return render(request,'Easy_Shopify_app/admin_add_products.html',{'productForm':productForm})
 
-def add_to_cart_view(request):
-    
-     return render(request, 'Easy_Shopify_app/index.html')   
+def add_to_cart_view(request,pk):
+    products=models.Product.objects.all()
+
+    if 'product_ids' in request.COOKIES:
+        product_ids = request.COOKIES['product_ids']
+        counter=product_ids.split('|')
+        product_count_in_cart=len(set(counter))
+    else:
+        product_count_in_cart=1
+
+    return render(request, 'Easy_Shopify_app/index.html',{'products':products,'product_count_in_cart':product_count_in_cart})
