@@ -4,6 +4,7 @@ from django.http import HttpResponseRedirect, HttpResponse
 from django.contrib.auth.models import Group, User, auth
 from django.conf import settings
 from django.contrib.auth.decorators import login_required, user_passes_test
+from django.contrib import messages
 
 def home_view(request):
   
@@ -130,4 +131,6 @@ def add_to_cart_view(request,pk):
         response.set_cookie('product_ids', product_ids)
     else:
         response.set_cookie('product_ids', pk)
+        product=models.Product.objects.get(id=pk)
+        messages.info(request, product.name + ' Product successfully added to cart')
     return response
