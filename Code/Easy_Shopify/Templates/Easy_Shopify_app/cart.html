@@ -76,6 +76,20 @@
   
           </tr>
         </thead>
+        {% for p in products %}
+        {% if p %}
+      
+            <tr>
+              <td> {{p.name}}</td>
+              <td> <img src="{% static p.product_image.url %}" alt="Profile Pic" height="40px" width="40px" /></td>
+              <td>{{p.price}}</td>
+              <td>{{p.description}}</td>
+            </tr>
+            {%else%}
+            <br><br><br>
+            <h1>No products added</h1>
+            {% endif %}
+            {% endfor %}
       </table>
     </div>
 </div>
