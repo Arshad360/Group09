@@ -40,8 +40,10 @@ def cart_view(request):
         if product_ids != "":
             product_id_in_cart=product_ids.split('|')
             products=models.Product.objects.all().filter(id__in = product_id_in_cart)
-
-    return render(request,'Easy_Shopify_app/cart.html',{'product_count_in_cart':product_count_in_cart,'products':products})
+            for p in products:
+                total=total+p.price
+                
+    return render(request,'Easy_Shopify_app/cart.html',{'product_count_in_cart':product_count_in_cart,'products':products,'total':total})
 
 def afterlogin_view(request):
     if is_customer(request.user):
@@ -108,5 +110,5 @@ def admin_add_product_view(request):
     return render(request,'Easy_Shopify_app/admin_add_products.html',{'productForm':productForm})
 
 def add_to_cart_view(request):
-
-    return render(request, 'Easy_Shopify_app/index.html')
+    
+     return render(request, 'Easy_Shopify_app/index.html')   
