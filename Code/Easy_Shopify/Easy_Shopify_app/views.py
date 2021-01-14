@@ -119,4 +119,15 @@ def add_to_cart_view(request,pk):
     else:
         product_count_in_cart=1
 
-    return render(request, 'Easy_Shopify_app/index.html',{'products':products,'product_count_in_cart':product_count_in_cart})
+    response = render(request, 'Easy_Shopify_app/index.html',{'products':products,'product_count_in_cart':product_count_in_cart})
+
+    if 'product_ids' in request.COOKIES:
+        product_ids = request.COOKIES['product_ids']
+        if product_ids=="":
+            product_ids=str(pk)
+        else:
+            product_ids=product_ids+"|"+str(pk)
+        response.set_cookie('product_ids', product_ids)
+    else:
+        response.set_cookie('product_ids', pk)
+    return response
