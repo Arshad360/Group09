@@ -38,4 +38,5 @@ urlpatterns = [
     path('admin-add-product', views.admin_add_product_view,name='admin-add-product'),
     path('add-to-cart/<int:pk>', views.add_to_cart_view,name='add-to-cart'),
     path('remove-from-cart/<int:pk>', views.remove_from_cart_view,name='remove-from-cart'),
+    path('delete-product/<int:pk>', views.delete_product_view,name='delete-product'),
 ]
