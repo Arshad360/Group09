@@ -152,4 +152,15 @@ def remove_from_cart_view(request,pk):
         
         for p in products:
             total=total+p.price
-    return render(request,'Easy_Shopify_app/cart.html',{'product_count':product_count_in_cart,'total':total,'products':products})
+    
+        value=""
+        for i in range(len(product_id_in_cart)):
+            if i==0:
+                value=value+product_id_in_cart[0]
+            else:
+                value=value+"|"+product_id_in_cart[i]
+        response = render(request, 'Easy_Shopify_app/cart.html',{'product_count_in_cart':product_count_in_cart,'total':total,'products':products, 'product_id_in_cart':product_id_in_cart})
+        if value=="":
+            response.delete_cookie('product_ids')
+        response.set_cookie('product_ids',value)
+        return response
