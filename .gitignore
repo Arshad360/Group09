@@ -838,3 +838,9 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 *.pyc
+Code/Easy_Shopify/Easy_Shopify_app/migrations/0002_auto_20210115_2314.py
+Code/Easy_Shopify/Easy_Shopify_app/migrations/0003_remove_customer_profile_pic.py
+*.pyc
+*.pyc
+*.pyc
+Code/Easy_Shopify/Easy_Shopify/__pycache__/settings.cpython-39.pyc
