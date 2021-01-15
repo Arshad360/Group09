@@ -98,8 +98,10 @@ def customer_home_view(request):
     
     return render(request,'Easy_Shopify_app/customer_home.html')
 
+@login_required(login_url='adminlogin')
 def view_customer_view(request):
-    return render(request, 'Easy_Shopify_app/view_customer.html')
+    customers=models.Customer.objects.all()
+    return render(request,'Easy_Shopify_app/view_customer.html',{'customers':customers})
 
 @login_required(login_url='adminlogin')
 def admin_products_view(request):
