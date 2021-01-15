@@ -77,20 +77,20 @@
           </tr>
         </thead>
         {% for p in products %}
-        {% if p %}
+    {% if p %}
       
-            <tr>
-              <td> {{p.name}}</td>
-              <td> <img src="{% static p.product_image.url %}" alt="Profile Pic" height="40px" width="40px" /></td>
-              <td>{{p.price}}</td>
-              <td>{{p.description}}</td>
-              <td><a class="btn btn-danger btn-xs" href="{% url 'remove-from-cart' p.id  %}"><span class="glyphicon glyphicon-trash"></span></a></td>
-            </tr>
-            {%else%}
-            <br><br><br>
-            <h1>No products added</h1>
-            {% endif %}
-            {% endfor %}
+          <tr>
+            <td> {{p.name}}</td>
+            <td> <img src="{% static p.product_image.url %}" alt="Profile Pic" height="40px" width="40px" /></td>
+            <td>{{p.price}}</td>
+            <td>{{p.description}}</td>
+            <td><a class="btn btn-danger btn-xs" href="{% url 'remove-from-cart' p.id  %}"><span class="glyphicon glyphicon-trash"></span></a></td>
+          </tr>
+          {%else%}
+          <br><br><br>
+          <h1>No products added</h1>
+          {% endif %}
+          {% endfor %}
       </table>
     </div>
 </div>
