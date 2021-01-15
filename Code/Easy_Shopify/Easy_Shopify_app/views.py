@@ -42,9 +42,9 @@ def cart_view(request):
             product_id_in_cart=product_ids.split('|')
             products=models.Product.objects.all().filter(id__in = product_id_in_cart)
             for p in products:
-                total=total+p.price
-                
-    return render(request,'Easy_Shopify_app/cart.html',{'product_count_in_cart':product_count_in_cart,'products':products,'total':total})
+                total=total+p.price       
+                                      
+    return render(request,'Easy_Shopify_app/cart.html',{'products':products,'total':total,'product_count_in_cart':product_count_in_cart})            
 
 def afterlogin_view(request):
     if is_customer(request.user):
@@ -139,8 +139,10 @@ def add_to_cart_view(request,pk):
         response.set_cookie('product_ids', product_ids)
     else:
         response.set_cookie('product_ids', pk)
-        product=models.Product.objects.get(id=pk)
-        messages.info(request, product.name + ' Product successfully added to cart')
+        
+    product=models.Product.objects.get(id=pk)
+    messages.info(request, product.name + ' Product successfully added to cart')
+    
     return response
 
 def remove_from_cart_view(request,pk):
@@ -160,14 +162,14 @@ def remove_from_cart_view(request,pk):
         
         for p in products:
             total=total+p.price
-    
+            
         value=""
         for i in range(len(product_id_in_cart)):
             if i==0:
                 value=value+product_id_in_cart[0]
             else:
                 value=value+"|"+product_id_in_cart[i]
-        response = render(request, 'Easy_Shopify_app/cart.html',{'product_count_in_cart':product_count_in_cart,'total':total,'products':products, 'product_id_in_cart':product_id_in_cart})
+        response = render(request,'Easy-Shopify_app/cart.html',{'products':products,'total':total,'product_count_in_cart':product_count_in_cart})
         if value=="":
             response.delete_cookie('product_ids')
         response.set_cookie('product_ids',value)
