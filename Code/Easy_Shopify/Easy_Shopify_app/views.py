@@ -79,8 +79,14 @@ def customer_signup_view(request):
 
 @login_required(login_url='adminlogin') 
 def admin_dashboard_view(request):
+    customercount=models.Customer.objects.all().count()
+    productcount=models.Product.objects.all().count()
     
-    return render(request,'Easy_Shopify_app/admin_dashboard.html')
+    easy_shopify_app={
+        'customercount':customercount,
+        'productcount':productcount,
+    }
+    return render(request,'Easy_Shopify_app/admin_dashboard.html',context=easy_shopify_app)
 
 def is_customer(user):
     return user.groups.filter(name='CUSTOMER').exists()
