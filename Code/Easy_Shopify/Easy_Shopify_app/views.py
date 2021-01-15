@@ -197,4 +197,7 @@ def search_view(request):
         product_count_in_cart=len(set(counter))
     else:
         product_count_in_cart=0  
-    return render(request,'Easy_Shopify_app/index.html',{'products':products,'product_count_in_cart':product_count_in_cart})
+    word="Searched Result :"
+    if request.user.is_authenticated:
+        return render(request,'Easy_Shopify_app/customer_home.html',{'products':products,'product_count_in_cart':product_count_in_cart,'word':word})
+    return render(request,'Easy_Shopify_app/index.html',{'products':products,'product_count_in_cart':product_count_in_cart,'word':word})
