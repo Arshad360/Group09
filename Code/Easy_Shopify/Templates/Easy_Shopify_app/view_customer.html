@@ -29,12 +29,18 @@
       <thead>
         <tr>
           <th>Name</th>
-          <th>Profile Picture</th>
           <th>Mobile</th>
           <th>Address</th>
           <th>Update</th>
           <th>Delete</th>
         </tr>
+        {% for c in customers %}
+        <tr>
+          <td> {{c.get_name}}</td>
+          <td>{{c.mobile}}</td>
+          <td>{{c.address}}</td>
+        </tr>
+      {% endfor %}
       </thead>
     </table>
   </div>
