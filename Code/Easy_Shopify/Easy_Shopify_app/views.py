@@ -169,7 +169,7 @@ def remove_from_cart_view(request,pk):
                 value=value+product_id_in_cart[0]
             else:
                 value=value+"|"+product_id_in_cart[i]
-        response = render(request,'Easy-Shopify_app/cart.html',{'products':products,'total':total,'product_count_in_cart':product_count_in_cart})
+        response = render(request,'Easy_Shopify_app/cart.html',{'products':products,'total':total,'product_count_in_cart':product_count_in_cart})
         if value=="":
             response.delete_cookie('product_ids')
         response.set_cookie('product_ids',value)
