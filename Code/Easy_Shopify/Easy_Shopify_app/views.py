@@ -187,3 +187,14 @@ def update_product_view(request,pk):
             productForm.save()
             return redirect('admin-products')
     return render(request,'Easy_Shopify_app/admin_update_product.html',{'productForm':productForm})
+
+def search_view(request):
+    query = request.GET['query']
+    products=models.Product.objects.all().filter(name__icontains=query)
+    if 'product_ids' in request.COOKIES:
+        product_ids = request.COOKIES['product_ids']
+        counter=product_ids.split('|')
+        product_count_in_cart=len(set(counter))
+    else:
+        product_count_in_cart=0  
+    return render(request,'Easy_Shopify_app/index.html',{'products':products,'product_count_in_cart':product_count_in_cart})
