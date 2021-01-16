@@ -42,4 +42,5 @@ urlpatterns = [
     path('update-product/<int:pk>', views.update_product_view,name='update-product'),
     path('search', views.search_view,name='search'),
     path('send-feedback', views.send_feedback_view,name='send-feedback'),
+    path('view-feedback', views.view_feedback_view,name='view-feedback'),
 ]
