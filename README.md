@@ -43,7 +43,11 @@ product.</p>
 <p align="justify">It can cost up to 5 times more to acquire a new customer than retaining an existing one. The success rate of selling to a current customer is 60-70% compared to only 5-20% Success rate of selling to a new customer, but most of the sites cannot hold up their exciting customer.</p>
 <p><strong>FEATURES</strong></p>
 <ol>
-  <li>Login and Registration.</li>
+  <li>Registration
+  <p align="justify">For Login to the system customer first need to create an account by simply complete the signup form by giving First name, Last name, Username, password, address, mobile number and then click the “Create” button. Thus the customer have to remember the “Username” and “password”. </p> 
+   <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Screenshots/Signup%20page.png" alt="" width="607" height="557" /></strong></p>
+    <p align="center"><strong>Figure 1.1</strong></p>
+  </li>
   <li>Shopping Cart and Checkout Process.</li>
   <li>Wishlist.</li>
   <li>Search bar.</li>
