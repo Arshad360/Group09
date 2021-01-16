@@ -9,12 +9,12 @@
 
 <body>
   {% if request.user.is_authenticated %}
-    {% include "Easy_Shopify_app/navbar.html" %}
+    {% include "Easy_Shopify_app/customer_navbar.html" %}
   {% else %}
     {% include "Easy_Shopify_app/navbar.html" %}
   {% endif %}
   
-    {%block content%}
+  {%block content%}
 
   {%endblock content%}
 
