@@ -19,8 +19,4 @@ class ProductForm(forms.ModelForm):
     class Meta:
         model=models.Product
         fields=['name','price','description','product_image']
-
-class FeedbackForm(forms.ModelForm):
-    class Meta:
-        model=models.Feedback
-        fields=['name','feedback']
+        
