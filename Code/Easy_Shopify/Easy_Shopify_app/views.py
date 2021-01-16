@@ -221,3 +221,8 @@ def send_feedback_view(request):
             feedbackForm.save()
             return render(request, 'Easy_Shopify_app/feedback_sent.html')
     return render(request, 'Easy_Shopify_app/feedback.html', {'feedbackForm':feedbackForm})
+
+@login_required(login_url='adminlogin')
+def view_feedback_view(request):
+    feedbacks=models.Feedback.objects.all().order_by('-id')
+    return render(request,'Easy_Shopify_app/view_feedback.html',{'feedbacks':feedbacks})
