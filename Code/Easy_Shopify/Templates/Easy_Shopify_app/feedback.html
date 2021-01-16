@@ -15,6 +15,26 @@
     {% include "Easy_Shopify_app/navbar.html" %}
   {%endif%}
 
+  <center>
+    <h3 class='alert alert-success'>Send Us Your Valuable Feedback </h3>
+    <form method="post">
+      {% csrf_token %}
+    <ul class="form-style-1">
+        <li>
+            <label>Name <span class="required">*</span></label>
+            {% render_field feedbackForm.name class="field-long"  %}
+        </li>
+        <li>
+            <label>Your Feedback <span class="required">*</span></label>
+            {% render_field feedbackForm.feedback id="field5" class="field-long field-textarea"  %}
+        </li>
+        <li>
+            <input type="submit" value="Send Feedback" />
+        </li>
+    </ul>
+    </form>
+  </center>
+  
   {% include "Easy_Shopify_app/footer.html" %}
 </body>
 </html>
