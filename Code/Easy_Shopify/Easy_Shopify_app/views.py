@@ -212,3 +212,12 @@ def search_view(request):
     if request.user.is_authenticated:
         return render(request,'Easy_Shopify_app/customer_home.html',{'products':products,'product_count_in_cart':product_count_in_cart,'word':word})
     return render(request,'Easy_Shopify_app/index.html',{'products':products,'product_count_in_cart':product_count_in_cart,'word':word})
+
+def send_feedback_view(request):
+    feedbackForm=forms.FeedbackForm()
+    if request.method == 'POST':
+        feedbackForm = forms.FeedbackForm(request.POST)
+        if feedbackForm.is_valid():
+            feedbackForm.save()
+            return render(request, 'Easy_Shopify_app/feedback_sent.html')
+    return render(request, 'Easy_Shopify_app/feedback.html', {'feedbackForm':feedbackForm})
