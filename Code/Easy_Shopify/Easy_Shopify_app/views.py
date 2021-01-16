@@ -91,13 +91,20 @@ def admin_dashboard_view(request):
 def is_customer(user):
     return user.groups.filter(name='CUSTOMER').exists()
 
-@login_required(login_url='customerlogin')
 
+@login_required(login_url='customerlogin')
 @user_passes_test(is_customer)
 def customer_home_view(request):
+  
+    products=models.Product.objects.all()
+    if 'product_ids' in request.COOKIES:
+        product_ids = request.COOKIES['product_ids']
+        counter=product_ids.split('|')
+        product_count_in_cart=len(set(counter))
+    else:
+        product_count_in_cart=0       
+    return render(request,'Easy_Shopify_app/customer_home.html',{'products':products,'product_count_in_cart':product_count_in_cart})
     
-    return render(request,'Easy_Shopify_app/customer_home.html')
-
 @login_required(login_url='adminlogin')
 def view_customer_view(request):
     customers=models.Customer.objects.all()
