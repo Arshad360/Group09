@@ -41,4 +41,5 @@ urlpatterns = [
     path('delete-product/<int:pk>', views.delete_product_view,name='delete-product'),
     path('update-product/<int:pk>', views.update_product_view,name='update-product'),
     path('search', views.search_view,name='search'),
+    path('send-feedback', views.send_feedback_view,name='send-feedback'),
 ]
