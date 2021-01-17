@@ -201,6 +201,10 @@ product.</p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/CustomerLogin.png?raw=true" alt="CustomerLogin.png"></strong></p> 
 <p align="center"><strong>Figure 8.1</strong></p>
 
+<p>9. Customer Home Page</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Customer_homepage.png?raw=true" alt="Customer_homepage.png"></strong></p> 
+<p align="center"><strong>Figure 9.1</strong></p>
+
 <p><strong>MONETIZATION</strong></p>
 <ul>
   <li>We will ask the seller to pay a commission of 5% for product sold more than 100 BDT.</li>
