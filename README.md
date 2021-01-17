@@ -104,18 +104,26 @@ product.</p>
 <p><strong>TECHNOLOGY</strong></p>
 <p>We decided to go with latest technologies for developing this application in order to give users a better experience.</p>
 <p></p>
-<p><strong>FRONTEND</strong></p>
+<p><strong>HARDWARE AND SOFTWARE REQUIREMENT</strong></p>
+<p>1. Hardware Required
 <ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>Bootstrap</li>
-  <li>Javascript</li>
+  <li>Processor : Pentium IV or Above.</li>
+  <li>Ram : 2GB or above.</li>
+  <li>Hard Disk : 50GB or Above</li>
+  <li>Input Device : Keyboard, Mouse, Touchpad</li>
+  <li>Output Device : Monitor</li>
 </ul>
-<p><strong>BACKEND</strong></p>
+</p>
+<p>2. Software Required
 <ul>
-  <li>MySQL</li>
-  <li>Python</li>
+  <li>Operating System : Linux, Mac, Windows XP, 7, 8, 8.1, 10</li>
+  <li>Frontend : HTML, CSS, Bootstrap, JavaScript</li>
+  <li>Backend : Python, MySQL</li>
+  <li>Local host : XAMPP</li>
 </ul>
+</p>
+<p></p>
+
 <p><strong>FRAMEWORK</strong></p>
 <ul>
   <li>Django</li>
