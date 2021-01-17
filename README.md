@@ -235,3 +235,15 @@ product.</p>
 <p><strong>SOCIAL IMPACT</strong></p>
 <p align="justify">As we are giving opportunities to the entrepreneurs to use the platform, they are attracted to advanced technologies, and will help to reduce the unemployment problems from our society, which will lead a better economy for the country. People can use online payment easily, which is hassle-free. People can order what they need through our website while staying at home by just a few clicks. Due to Covid'19 pandemic, people cannot go outside often as it is risky so they can use the platform to buy what they need. As we will maintain hygiene while delivering a product, it will be risk-free.</p>
 
+<p><strong>FUTURE ASPECT</strong></p>
+<p align="justify">This project has a very vast scope in future. The project can be implement in future. It can be updated in near future and when requirement for the same arises, as it is very flexible in terms of expansion. Though I couldn't be able to complete all the proposed functionalities. But I will add the functionalities in future scope.
+The following are the future scope for the project.
+  <ul>
+    <li>Category wise products showcase.</li>
+    <li>Adding the Wishlist.</li>
+    <li>Adding Payment system & gateway</li>
+    <li>Finishing the Checkout Process</li>
+    <li>Adding the Shipping form</li>
+</ul>
+</p>
+
