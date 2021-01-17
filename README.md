@@ -83,6 +83,16 @@ product.</p>
   <li>If the user clicks on purchase button without having products in their cart, then the website will ask to add product in the cart first.</li>
 </ul>
 <p></p>
+<p><strong>SYSTEM DESIGN</strong></p>
+<p>1. Design</p>
+<p align="justify">The system is divided into some parts like Registration system, Login system, Search system, Order system, add prouct system, view product system, order received system, sent feedback system and received feedback system with database represent the server using MYSQL, APACHE with XAMPP server.</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Design%20Diagram/Design_diagram.png" alt="" width="641" height="481" /></strong></p>
+    <p align="center"><strong>Figure 1</strong></p>
+<p></p>
+<p>2. User Characteristics</p>
+<p align="justify"><strong>Admin</strong> The administrator has all the rights to access the system. He is the one who has all rights to view the users and product details and also modify those details. He can add products, remove products. He can also set the product price. Admin can change the customer details. He can see the order details and feedback sent by the customers. He also have the rights to delete a customer.</p>
+<p align="justify"><strong>Users</strong> The user can log in to the system by using his specific username and password. User can view the products available and order the products according to their own needs. User can view his profile and if he want, he also can update his details by logging to the system. User can find various products by simply type the product name in the search bar and click the search option. </p>
+
 <p><strong>TECHNOLOGY</strong></p>
 <p>We decided to go with latest technologies for developing this application in order to give users a better experience.</p>
 <p></p>
