@@ -186,7 +186,7 @@ product.</p>
 <p align="center"><strong>Figure 4.1</strong></p>
 
 <p>5. Admin View Product List</p>
-<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/AdminViewproductlist.png" alt="" width="1318" height="642" /></strong></p> 
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/AdminViewproductlist.png?raw=true" alt="AdminViewproductlist.png"></strong></p> 
 <p align="center"><strong>Figure 5.1</strong></p>
 
 <p>6. Admin View Feedback</p>
