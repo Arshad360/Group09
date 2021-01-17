@@ -213,6 +213,10 @@ product.</p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Feedback.png?raw=true" alt="Feedback.png"></strong></p> 
 <p align="center"><strong>Figure 11.1</strong></p>
 
+<p>12. Logout Page</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/logout.png?raw=true" alt="logout.png"></strong></p> 
+<p align="center"><strong>Figure 12.1</strong></p>
+
 <p><strong>MONETIZATION</strong></p>
 <ul>
   <li>We will ask the seller to pay a commission of 5% for product sold more than 100 BDT.</li>
