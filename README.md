@@ -149,7 +149,7 @@ product.</p>
 <p>3. Database Table </p>
 <p></p>
 <p>3.1 All Table List</p>
-<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/All_Table_List.png" alt="" width="998" height="399" /></strong></p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/All_Table_List.png?raw=true" alt="All_Table_List.png"></strong></p>
 <p align="center"><strong>Figure 3.1</strong></p>
 <p></p>
 <p>3.2. Customer Table</p>
