@@ -189,6 +189,10 @@ product.</p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/AdminViewproductlist.png" alt="" width="1318" height="642" /></strong></p> 
 <p align="center"><strong>Figure 5.1</strong></p>
 
+<p>6. Admin View Feedback</p>
+<p align="center"><strong><img src="https://github.com//NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/viewfeedback.png?raw=true" alt="viewfeedback.png"></strong></p> 
+<p align="center"><strong>Figure 6.1</strong></p>
+
 <p><strong>MONETIZATION</strong></p>
 <ul>
   <li>We will ask the seller to pay a commission of 5% for product sold more than 100 BDT.</li>
