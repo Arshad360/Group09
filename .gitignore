@@ -844,3 +844,6 @@ Code/Easy_Shopify/Easy_Shopify_app/migrations/0003_remove_customer_profile_pic.p
 *.pyc
 *.pyc
 Code/Easy_Shopify/Easy_Shopify/__pycache__/settings.cpython-39.pyc
+Code/Easy_Shopify/Easy_Shopify/__pycache__/urls.cpython-39.pyc
+Code/Easy_Shopify/Easy_Shopify_app/migrations/0004_feedback.py
+Code/Easy_Shopify/Easy_Shopify/__pycache__/urls.cpython-39.pyc
