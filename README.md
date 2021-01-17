@@ -178,7 +178,7 @@ product.</p>
 <p align="center"><strong>Figure 2.1</strong></p>
 
 <p>3. Admin Dashboard Page</p>
-<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Admin_Dashboard.png" alt="" width="1360" height="533" /></strong></p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Admin_Dashboard.png?raw=true" alt="Admin_Dashboard.png"></strong></p>
 <p align="center"><strong>Figure 3.1</strong></p>
 
 <p>4. Admin View Customer Page</p>
