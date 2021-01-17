@@ -145,85 +145,85 @@ product.</p>
 </p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Design%20Diagram/Database_workflow_with_Django.png" alt="" width="463" height="147" /></strong></p>
 <p align="center"><strong>Figure 2</strong></p>
-
+<p></p>
 <p>3. Database Table </p>
-
+<p></p>
 <p>3.1 All Table List</p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/All_Table_List.png" alt="" width="998" height="399" /></strong></p>
 <p align="center"><strong>Figure 3.1</strong></p>
-
+<p></p>
 <p>3.2. Customer Table</p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/Customer_Table.png" alt="" width="858" height="192" /></strong></p>
 <p align="center"><strong>Figure 3.2</strong></p>
-
+<p></p>
 <p>3.3 User Table</p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/User_Table.png" alt="" width="889" height="384" /></strong></p>
 <p align="center"><strong>Figure 3.3</strong></p>
-
+<p></p>
 <p>3.4 Product Table</p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/Product_Table.png" alt="" width="884" height="223" /></strong></p>
 <p align="center"><strong>Figure 3.4</strong></p>
-
+<p></p>
 <p>3.5 Feedback Table</p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/Feedback_Table.png" alt="" width="855" height="194" /></strong></p>
 <p align="center"><strong>Figure 3.5</strong></p>
-
+<p></p>
 <p><strong>PROJECT MODEL VIEW</strong></p>
-<p>1. Home Page</p>
+<p><b>1. Home Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Homepage3.png?raw=true" alt="Homepage3.png"></strong></p>
 <p align="center"><strong>Figure 1.1</strong></p>
-
-<p>2. Admin Login Page</p>
+<p></p>
+<p><b>2. Admin Login Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/AdminLogin.png" alt="" width="1069" height="653" /></strong></p>
 <p align="center"><strong>Figure 2.1</strong></p>
-
-<p>3. Admin Dashboard Page</p>
+<p></p>
+<p><b>3. Admin Dashboard Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Admin_Dashboard.png?raw=true" alt="Admin_Dashboard.png"></strong></p>
 <p align="center"><strong>Figure 3.1</strong></p>
-
-<p>4. Admin View Customer Page</p>
+<p></p>
+<p><b>4. Admin View Customer Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/ViewCustomer.png" alt="" width="1315" height="443" /></strong></p> 
 <p align="center"><strong>Figure 4.1</strong></p>
-
-<p>5. Admin View Product List</p>
+<p></p>
+<p><b>5. Admin View Product List</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/AdminViewproductlist.png?raw=true" alt="AdminViewproductlist.png"></strong></p> 
 <p align="center"><strong>Figure 5.1</strong></p>
-
-<p>6. Admin View Feedback</p>
+<p></p>
+<p><b>6. Admin View Feedback</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/viewfeedback.png?raw=true" alt="viewfeedback.png"></strong></p> 
 <p align="center"><strong>Figure 6.1</strong></p>
-
-<p>7. Customer Sign Up Page</p>
+<p></p>
+<p><b>7. Customer Sign Up Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Signup%20page.png?raw=true" alt="Signup page.png"></strong></p> 
 <p align="center"><strong>Figure 7.1</strong></p>
-
-<p>8. Customer Login Page</p>
+<p></p>
+<p><b>8. Customer Login Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/CustomerLogin.png?raw=true" alt="CustomerLogin.png"></strong></p> 
 <p align="center"><strong>Figure 8.1</strong></p>
-
-<p>9. Customer Home Page</p>
+<p></p>
+<p><b>9. Customer Home Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Customer_homepage.png?raw=true" alt="Customer_homepage.png"></strong></p> 
 <p align="center"><strong>Figure 9.1</strong></p>
-
-<p>10. Cart Page</p>
+<p></p>
+<p><b>10. Cart Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Cart_page.png?raw=true" alt="Cart_page.png"></strong></p> 
 <p align="center"><strong>Figure 10.1</strong></p>
-
-<p>11. Customer Sent Feedback Page</p>
+<p></p>
+<p><b>11. Customer Sent Feedback Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Feedback.png?raw=true" alt="Feedback.png"></strong></p> 
 <p align="center"><strong>Figure 11.1</strong></p>
-
-<p>12. Logout Page</p>
+<p></p>
+<p><b>12. Logout Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/logout.png?raw=true" alt="logout.png"></strong></p> 
 <p align="center"><strong>Figure 12.1</strong></p>
-
+<p></p>
 <p><strong>MONETIZATION</strong></p>
 <ul>
   <li>We will ask the seller to pay a commission of 5% for product sold more than 100 BDT.</li>
   <li>Companies can place add in the website, which will cost 100 BDT per day.</li>
   <li>Google Adsense</li>
 </ul>
-
+<p></p>
 <p><strong>QUALITY</strong></p>
 <ul>
   <li>The UI of the application will be user friendly so that anyone can use it.</li>
