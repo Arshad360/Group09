@@ -92,7 +92,15 @@ product.</p>
 <p>2. User Characteristics</p>
 <p align="justify"><strong>Admin</strong> The administrator has all the rights to access the system. He is the one who has all rights to view the users and product details and also modify those details. He can add products, remove products. He can also set the product price. Admin can change the customer details. He can see the order details and feedback sent by the customers. He also have the rights to delete a customer.</p>
 <p align="justify"><strong>Users</strong> The user can log in to the system by using his specific username and password. User can view the products available and order the products according to their own needs. User can view his profile and if he want, he also can update his details by logging to the system. User can find various products by simply type the product name in the search bar and click the search option. </p>
-
+<p></p>
+<p>3. System Information</p>
+<p align="justify">This is an E-Commerece website system through which the user can buy products, order products, search products in the quick time. It has the following advantages:
+<ul>
+  <li>User friendly interface</li>
+  <li>Fast access to database</li>
+  <li>Search facility</li>
+</ul>
+</p>
 <p><strong>TECHNOLOGY</strong></p>
 <p>We decided to go with latest technologies for developing this application in order to give users a better experience.</p>
 <p></p>
