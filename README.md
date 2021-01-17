@@ -190,12 +190,16 @@ product.</p>
 <p align="center"><strong>Figure 5.1</strong></p>
 
 <p>6. Admin View Feedback</p>
-<p align="center"><strong><img src="https://github.com//NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/viewfeedback.png?raw=true" alt="viewfeedback.png"></strong></p> 
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/viewfeedback.png?raw=true" alt="viewfeedback.png"></strong></p> 
 <p align="center"><strong>Figure 6.1</strong></p>
 
 <p>7. Customer Sign Up Page</p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Signup%20page.png?raw=true" alt="Signup page.png"></strong></p> 
-<p align="center"><strong>Figure 6.1</strong></p>
+<p align="center"><strong>Figure 7.1</strong></p>
+
+<p>8. Customer Login Page</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/CustomerLogin.png?raw=true" alt="CustomerLogin.png"></strong></p> 
+<p align="center"><strong>Figure 8.1</strong></p>
 
 <p><strong>MONETIZATION</strong></p>
 <ul>
