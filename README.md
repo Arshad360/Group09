@@ -184,6 +184,11 @@ product.</p>
 <p><b>4. Admin View Customer Page</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/ViewCustomer.png" alt="" width="1315" height="443" /></strong></p> 
 <p align="center"><strong>Figure 4.1</strong></p>
+
+<p><b>4. Admin View Customer Page</b></p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/ViewCustomer.png?raw=true" alt="ViewCustomer.png"></strong></p> 
+<p align="center"><strong>Figure 4.1</strong></p>
+
 <p></p>
 <p><b>5. Admin View Product List</b></p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/AdminViewproductlist.png?raw=true" alt="AdminViewproductlist.png"></strong></p> 
