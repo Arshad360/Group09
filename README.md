@@ -170,7 +170,7 @@ product.</p>
 
 <p><strong>PROJECT MODEL VIEW</strong></p>
 <p>1. Home Page</p>
-<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Homepage3.png" alt="" width="1337" height="647" /></strong></p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Homepage3.png?raw=true" alt="Homepage3.png"></strong></p>
 <p align="center"><strong>Figure 1.1</strong></p>
 
 <p>2. Admin Login Page</p>
