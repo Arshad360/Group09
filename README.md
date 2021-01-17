@@ -122,10 +122,14 @@ product.</p>
   <li>Local host : XAMPP</li>
 </ul>
 </p>
+<p><strong>FRAMEWORK</strong></p>
+<ul>
+  <li>Django</li>
+</ul>
 <p></p>
 <p><strong>PROJECT DATABASE AND TABLE</strong></p>
 <p>1. Database</p>
-<p align="justify">In the project I used the MySQL database. It is the database system used on the web. It runs on a server. It is ideal for both small and large applications. Therefore it is very fast, reliable, and easy to use. It uses the standard SQL. It compiles on a number of platforms and moreover it is free to download and use. It was developed, distributed, and supported by Oracle Corporation.</p>
+<p align="justify">In the project I used the MySQL database. It is the database system used on the web. It runs on a server. It is ideal for both small and large applications. Therefore it is very fast, reliable, and easy to use. It uses the standard SQL. It compiles on a number of platforms and moreover it is free to download and use. It was developed, distributed, and supported by Oracle Corporation. In Figure 2, It shows how MySQL database works with Django framework</p>
 <p></p>
 <p>2. Database Design</p>
 <p align="justify">Database is critical for all types of website. A good database doesnot allow any form of inconsistency and stores only relevant information in an ordered manner. If a database has inconsistency, it will affect the efficiency and data integrity. For example, If delete anomaly arise upon the deletion of a rown which also forces other usefull data to be lost. As such, the tables need to be normalized. This fulfils the last objective of ensuring data are accurate and retrievd correctly.</p>
@@ -142,10 +146,27 @@ product.</p>
 <p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Design%20Diagram/Database_workflow_with_Django.png" alt="" width="463" height="147" /></strong></p>
 <p align="center"><strong>Figure 2</strong></p>
 
-<p><strong>FRAMEWORK</strong></p>
-<ul>
-  <li>Django</li>
-</ul>
+<p>3. Database Table </p>
+
+<p>3.1 All Table List</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/All_Table_List.png" alt="" width="998" height="399" /></strong></p>
+<p align="center"><strong>Figure 3.1</strong></p>
+
+<p>3.2. Customer Table</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/Customer_Table.png" alt="" width="858" height="192" /></strong></p>
+<p align="center"><strong>Figure 3.2</strong></p>
+
+<p>3.3 User Table</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/User_Table.png" alt="" width="889" height="384" /></strong></p>
+<p align="center"><strong>Figure 3.3</strong></p>
+
+<p>3.4 Product Table</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/Product_Table.png" alt="" width="884" height="223" /></strong></p>
+<p align="center"><strong>Figure 3.4</strong></p>
+
+<p>3.5 Feedback Table</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Database%20Table%20Images/Feedback_Table.png" alt="" width="855" height="194" /></strong></p>
+<p align="center"><strong>Figure 3.5</strong></p>
 
 <p><strong>MONETIZATION</strong></p>
 <ul>
@@ -162,3 +183,4 @@ product.</p>
 
 <p><strong>SOCIAL IMPACT</strong></p>
 <p align="justify">As we are giving opportunities to the entrepreneurs to use the platform, they are attracted to advanced technologies, and will help to reduce the unemployment problems from our society, which will lead a better economy for the country. People can use online payment easily, which is hassle-free. People can order what they need through our website while staying at home by just a few clicks. Due to Covid'19 pandemic, people cannot go outside often as it is risky so they can use the platform to buy what they need. As we will maintain hygiene while delivering a product, it will be risk-free.</p>
+
