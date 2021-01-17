@@ -193,6 +193,10 @@ product.</p>
 <p align="center"><strong><img src="https://github.com//NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/viewfeedback.png?raw=true" alt="viewfeedback.png"></strong></p> 
 <p align="center"><strong>Figure 6.1</strong></p>
 
+<p>7. Customer Sign Up Page</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Project%20Report/Project%20Model%20Images/Signup%20page.png?raw=true" alt="Signup page.png"></strong></p> 
+<p align="center"><strong>Figure 6.1</strong></p>
+
 <p><strong>MONETIZATION</strong></p>
 <ul>
   <li>We will ask the seller to pay a commission of 5% for product sold more than 100 BDT.</li>
