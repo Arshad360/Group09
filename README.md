@@ -123,6 +123,24 @@ product.</p>
 </ul>
 </p>
 <p></p>
+<p><strong>PROJECT DATABASE AND TABLE</strong></p>
+<p>1. Database</p>
+<p align="justify">In the project I used the MySQL database. It is the database system used on the web. It runs on a server. It is ideal for both small and large applications. Therefore it is very fast, reliable, and easy to use. It uses the standard SQL. It compiles on a number of platforms and moreover it is free to download and use. It was developed, distributed, and supported by Oracle Corporation.</p>
+<p></p>
+<p>2. Database Design</p>
+<p align="justify">Database is critical for all types of website. A good database doesnot allow any form of inconsistency and stores only relevant information in an ordered manner. If a database has inconsistency, it will affect the efficiency and data integrity. For example, If delete anomaly arise upon the deletion of a rown which also forces other usefull data to be lost. As such, the tables need to be normalized. This fulfils the last objective of ensuring data are accurate and retrievd correctly.</p>
+
+<p align="justify">Database files are the key source of information into the system. It is the process of designing database files, which are the key source of information to the system. The files should be properly designed and planned for collection, accumulation, editing and retrieving the required information.</p>
+
+<p align="justify">The organization of data in databse aims to achive three major objectives:
+  <ul>
+    <li>Data integration</li>
+    <li>Data integrity</li>
+    <li>Data independence</li>
+  </ul>
+</p>
+<p align="center"><strong><img src="https://github.com/NSU-FA20-CSE299-2/Group09/blob/main/Documentation/Design%20Diagram/Database_workflow_with_Django.png" alt="" width="463" height="147" /></strong></p>
+<p align="center"><strong>Figure 2</strong></p>
 
 <p><strong>FRAMEWORK</strong></p>
 <ul>
