@@ -244,6 +244,7 @@ The following are the future scope for the project.
     <li>Adding Payment system & gateway</li>
     <li>Finishing the Checkout Process</li>
     <li>Adding the Shipping form</li>
+    <li>Adding the Third party(seller) functionalities</li>
 </ul>
 </p>
 
